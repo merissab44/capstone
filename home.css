@@ -1,0 +1,61 @@
+body, html{
+  height: 100%;
+}
+body{
+  font-weight: 200;
+  font-size: 1rem;
+  color: #444;
+}
+.display-4{
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+.display-6{
+  font-size: 1.8rem;
+  font-weight: 200;
+}
+.carousel .carousel-item {
+  height: 500px;
+}
+.carousel-item img {
+    position: relative;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+.intro-left{
+    background: url(./images/Profile-image.jpg);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 0;
+    width: 33.3333%;
+    height: 100vh;
+    color: white;
+}
+@media (max-width: 768px) {
+  .intro-left{
+    height: 30vh;
+    margin-bottom: 0;
+    position: relative;
+    width: 100%;
+  }
+}
+.avatar{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  margin: 1rem;
+}
+.full-height{
+  height: 100%
+}
+.quote{
+  float: right;
+}
+section{
+  margin: 2rem;
+  font-size: 1.2rem;
+}
