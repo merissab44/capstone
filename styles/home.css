@@ -21,6 +21,9 @@ body{
     background-color: transparent;
     border: none;
 }
+.btn-primary:hover{
+  background-color: transparent;
+}
 .intro-left{
     background: url(../images/Profile-image.jpg);
     background-position-x: center;
@@ -29,15 +32,17 @@ body{
     position: fixed;
     left: 0;
     width: 33.3333%;
-    height: 100vh;
+    height: 100%;
     color: white;
+}
+.col-md-4{
+  z-index: -5;
 }
 nav{
     display: flex;
     justify-content: space-evenly;
-    z-index: auto;
 }
-}
+
 @media (max-width: 768px) {
   .intro-left{
     height: 30vh;
@@ -58,6 +63,9 @@ nav{
 .quote{
   float: right;
 }
+/* .container-fluid{
+  float: right;
+} */
 section{
   margin: 2rem;
   font-size: 1.2rem;

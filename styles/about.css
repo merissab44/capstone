@@ -1,0 +1,48 @@
+body, html{
+  height 100%;
+}
+body{
+  margin: 0;
+  color: black;
+  text-align: left;
+  background-color: white;
+}
+.navbar{
+  padding: 1rem;
+  background-color: rgb(56,145,213);
+}
+.nav-link {
+  display: block;
+  padding: .5rem 1rem;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.nav-link:hover{
+  color: rgba(0,180,250);
+}
+.btn{
+  background-color: rgba(0,180,250);
+  border: none;
+}
+.btn:hover{
+  background-color: rgba(0,160,255);
+}
+.intro-left{
+    position: fixed;
+    left: 0;
+    width: 33.3333%;
+    height: 100%;
+    color: white;
+}
+
+.col img{
+  position: relative;
+  width: 33.3333%;
+}
+#background-jumbotron{
+  background-image: url(../images/seattle.jpeg);
+  background-size: cover;
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
