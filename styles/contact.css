@@ -1,0 +1,19 @@
+body{
+  background-color: #212529;
+  color: white;
+  height: 100%;
+}
+form{
+  display: inline-block;
+  margin-left: 40%;
+  margin-top: 10%;
+}
+.nav-link{
+  color: white;
+  font-size: 18px;
+}
+.btn{
+  border-radius: 0;
+  border: none;
+  background-color: rgb(0,180,250)
+}
